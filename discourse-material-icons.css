@@ -22,7 +22,7 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
   word-wrap: normal;
 }
 
-.fa-fab-chrome::before, .fa-fab-discord::before, .fa-far-copyright::before {
+.fa-fab-chrome::before, .fa-fab-discord::before, .fa-far-copyright::before, .fa-fab-facebook::before, .fa-fab-windows::before {
     font-family: 'Material Design Icons';
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
@@ -38,6 +38,12 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
   white-space: nowrap;
   word-wrap: normal;
     
+}
+
+.fa-far-windows::before{content:"\F05B3"}
+
+.fa-fab-facebook::before {
+    content: "\F020C";
 }
 
 .fa-far-copyright::before
