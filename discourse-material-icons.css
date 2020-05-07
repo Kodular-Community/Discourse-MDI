@@ -1035,7 +1035,7 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
 }
 .fa-thumbtack::before,
 .fa-thumb-tack::before {
-  content: "\F403";
+  content: "\F0403";
 }
 .fa-thumbtack.unpinned,
 .fa-thumb-tack.unpinned {
@@ -1044,7 +1044,7 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
 }
 .fa-thumbtack.unpinned::before,
 .fa-thumb-tack.unpinned::before {
-  content: "\F404";
+  content: "\F0404";
 }
 
 .fa-times {
