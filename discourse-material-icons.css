@@ -978,7 +978,7 @@ MATERIAL ICONS FROM materialdesignicons.com
 }
 
 .fa-list::before {
-	content: "list";
+	content: "format_list_bulleted";
 }
 
 .fa-list-alt {
@@ -987,7 +987,7 @@ MATERIAL ICONS FROM materialdesignicons.com
 }
 
 .fa-list-alt::before {
-	content: "list";
+	content: "format_list_bulleted";
 }
 
 .fa-list-ol {
