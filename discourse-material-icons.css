@@ -542,6 +542,14 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
   content: "visibility";
 }
 
+.fa-far-eye {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+.fa-far-eye::before {
+  content: "visibility";
+}
+
 .fa-eye-slash {
   font-size: inherit !important;
   line-height: inherit !important;
