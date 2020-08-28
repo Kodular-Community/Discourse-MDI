@@ -201,6 +201,7 @@ MATERIAL ICONS FROM materialdesignicons.com
  */
 
 .fa-fab-chrome::before,
+.fa-shield-alt::before,
 .fa-fab-discord::before,
 .fa-far-copyright::before,
 .fa-fab-facebook::before,
@@ -226,6 +227,10 @@ MATERIAL ICONS FROM materialdesignicons.com
 /**
 
  */
+
+.fa-user-shield::before {
+	content: "\F0780"
+}
 
 .fa-user-shield::before {
 	content: "\F017C"
