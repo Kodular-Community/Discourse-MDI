@@ -561,7 +561,7 @@ MATERIAL ICONS FROM materialdesignicons.com
 }
 
 .fa-circle::before {
-	content: "lens";
+	content: "stop_circle";
 }
 
 .fa-circle-o,
@@ -1493,4 +1493,11 @@ MATERIAL ICONS FROM materialdesignicons.com
 
 .fa-stream::before {
 	content: "access_time";
+}
+
+
+
+
+.read-state i.fa.fa-circle.d-icon.d-icon-circle::before {
+    font-size: 1.1em;
 }
