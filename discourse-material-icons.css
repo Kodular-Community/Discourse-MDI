@@ -1501,3 +1501,31 @@ MATERIAL ICONS FROM materialdesignicons.com
 .read-state i.fa.fa-circle.d-icon.d-icon-circle::before {
     font-size: 1.1em;
 }
+
+
+
+
+
+/**
+Change "Like Icon" Outlined to Filled if a Like has been given
+ */
+
+
+
+i.fa.fa-heart.d-icon.d-icon-d-liked::before {
+	font-family: 'Material Icons';
+	-webkit-font-feature-settings: 'liga';
+	font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: normal;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	vertical-align: -0.302198em;
+	white-space: nowrap;
+	word-wrap: normal;
+    content: "thumb_up";
+}
